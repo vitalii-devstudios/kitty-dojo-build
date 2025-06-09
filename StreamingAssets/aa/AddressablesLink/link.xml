@@ -2,6 +2,11 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="FpsCounter" preserve="all" />
     <type fullname="KD.Assets.Scripts.PlayerController" preserve="all" />
+    <type fullname="KD.Audio.AudioPlayer" preserve="all" />
+    <type fullname="KD.Audio.ButtonClickSound" preserve="all" />
+    <type fullname="KD.Audio.SfxAsset" preserve="all" />
+    <type fullname="KD.Audio.SfxAudioSource" preserve="all" />
+    <type fullname="KD.Audio.ToggleClickSound" preserve="all" />
     <type fullname="KD.Data.ReactionSet" preserve="all" />
     <type fullname="KD.Data.SpecialAttackPack" preserve="all" />
     <type fullname="KD.FX.BalancedBeams" preserve="all" />
@@ -12,6 +17,8 @@
     <type fullname="KD.Gameplay.BotBrain" preserve="all" />
     <type fullname="KD.Gameplay.CharacterAnimator" preserve="all" />
     <type fullname="KD.Gameplay.CharacterStats" preserve="all" />
+    <type fullname="KD.Gameplay.DisconnectState" preserve="all" />
+    <type fullname="KD.Gameplay.DisconnectStateOverride" preserve="all" />
     <type fullname="KD.Gameplay.GameOverState" preserve="all" />
     <type fullname="KD.Gameplay.HPStat" preserve="all" />
     <type fullname="KD.Gameplay.InitGameState" preserve="all" />
@@ -35,6 +42,7 @@
     <type fullname="KD.UI.DefensePage" preserve="all" />
     <type fullname="KD.UI.DisconnectButton" preserve="all" />
     <type fullname="KD.UI.DynamicStatView" preserve="all" />
+    <type fullname="KD.UI.EmoteButton" preserve="all" />
     <type fullname="KD.UI.EndGameUI" preserve="all" />
     <type fullname="KD.UI.GameplayUI" preserve="all" />
     <type fullname="KD.UI.MoveSelectionUI" preserve="all" />
@@ -163,6 +171,9 @@
     <type fullname="UnityEngine.Timeline.TimelineAsset/EditorSettings" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Timeline.TimelineClip" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AnimationClip" preserve="all" />
     <type fullname="UnityEngine.Animator" preserve="all" />
@@ -170,7 +181,11 @@
     <type fullname="UnityEngine.RuntimeAnimatorController" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
     <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Camera" preserve="all" />

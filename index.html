@@ -19,6 +19,18 @@
       </div>
       <div id="unity-warning"> </div>
     </div>
+     <script>
+      // Game expects this object to be present in the global scope
+      // for two way interaction with the app
+      window.AppAPI = {
+        GetLevel: function(xp) {
+          return xp / 1000;
+        },
+        GetXp: function(level) {
+          return level * 1000;
+        }
+      }
+    </script>
     <script>
       window.addEventListener("load", function () {
         if ("serviceWorker" in navigator) {
@@ -66,7 +78,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.4.3",
+        productVersion: "0.4.7",
         showBanner: unityShowBanner,
       };
 
@@ -98,10 +110,14 @@
           //debug game data
           const gameData = {
             User: {
+              Id: crypto.randomUUID(), // New. Any unique id will do.
               Avatar: "https://i.pravatar.cc/64",
               Name: "Test_User",
               Stats: {
-                XP: 200
+                XP: 200,
+                HP: 100,      // New. We have UI for these stats so let's use it for now.
+                Defence: 100, // New
+                Energy: 100,  // New
               },
               Currency: {
                 Coins_ID: 50
@@ -109,7 +125,7 @@
             },
             Character: {
                 Skin: "skin_mai",
-                Hat: null,
+                Items: [], // New. List of eqipped NFT items (just ids for in game assets). Hat field is removed.
                 Weapon: "weapon_katana",
                 Special: []
             }
