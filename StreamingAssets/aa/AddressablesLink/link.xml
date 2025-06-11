@@ -88,7 +88,7 @@
     <type fullname="Unity.Cinemachine.NoiseSettings/TransformNoiseParams" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.PrioritySettings" preserve="nothing" serialized="true" />
   </assembly>
-  <assembly fullname="Unity.InputSystem, Version=1.13.0.0, Culture=neutral, PublicKeyToken=null">
+  <assembly fullname="Unity.InputSystem, Version=1.14.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
     <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
     <type fullname="UnityEngine.InputSystem.OnScreen.OnScreenButton" preserve="all" />
