@@ -7,6 +7,8 @@
     <type fullname="KD.Audio.SfxAsset" preserve="all" />
     <type fullname="KD.Audio.SfxAudioSource" preserve="all" />
     <type fullname="KD.Audio.ToggleClickSound" preserve="all" />
+    <type fullname="KD.Cosmetics.CharacterModel" preserve="all" />
+    <type fullname="KD.Cosmetics.PlayerDataCosmeticsManager" preserve="all" />
     <type fullname="KD.Data.ReactionSet" preserve="all" />
     <type fullname="KD.Data.SpecialAttackPack" preserve="all" />
     <type fullname="KD.FX.BalancedBeams" preserve="all" />

@@ -78,7 +78,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.4.10",
+        productVersion: "0.4.15",
         showBanner: unityShowBanner,
       };
 
@@ -107,12 +107,31 @@
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
 
+          const skins = [
+            "skin_generic",
+            "skin_mai"
+          ];
+
+          const items = [
+            "cosmetic_hat_01",
+            "cosmetic_boots_01",
+            "cosmetic_belt_01",
+            "cosmetic_hood_01",
+            "cosmetic_hood_02",
+            "cosmetic_mask_01",
+            "cosmetic_mask_02"
+          ]
+
+          const rnd_skin = skins[Math.floor(Math.random() * skins.length)];
+          const rnd_item = items[Math.floor(Math.random() * items.length)];
+          const user_number = Math.floor(Math.random() * 1000);
+
           //debug game data
           const gameData = {
             User: {
               Id: crypto.randomUUID(), // New. Any unique id will do.
               Avatar: "https://i.pravatar.cc/64",
-              Name: "Test_User",
+              Name: "Test_User_"+user_number,
               Stats: {
                 XP: 200,
                 HP: 100,      // New. We have UI for these stats so let's use it for now.
@@ -124,8 +143,8 @@
               },
             },
             Character: {
-                Skin: "skin_mai",
-                Items: [], // New. List of eqipped NFT items (just ids for in game assets). Hat field is removed.
+                Skin: rnd_skin,
+                Items: [rnd_item], // New. List of eqipped items (just ids for in game assets). Hat field is removed.
                 Weapon: "weapon_katana",
                 Special: []
             }
