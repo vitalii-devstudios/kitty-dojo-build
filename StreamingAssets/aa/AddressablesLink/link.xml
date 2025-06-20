@@ -28,6 +28,7 @@
     <type fullname="KD.Gameplay.NetGameManager" preserve="all" />
     <type fullname="KD.Gameplay.PlayerTracks" preserve="all" />
     <type fullname="KD.Gameplay.PowerBarState" preserve="all" />
+    <type fullname="KD.Gameplay.RoundEndState" preserve="all" />
     <type fullname="KD.Gameplay.SimulationState" preserve="all" />
     <type fullname="KD.Gameplay.SpawnManager" preserve="all" />
     <type fullname="KD.Gameplay.SpecialAttackCutsceneState" preserve="all" />
