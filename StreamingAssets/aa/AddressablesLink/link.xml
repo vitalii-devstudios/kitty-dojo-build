@@ -57,6 +57,7 @@
     <type fullname="KD.UI.ProgressBar" preserve="all" />
     <type fullname="KD.UI.ReactionsBar" preserve="all" />
     <type fullname="KD.UI.ReactionWorldView" preserve="all" />
+    <type fullname="KD.UI.RematchButton" preserve="all" />
     <type fullname="KD.UI.SpecialAttackButton" preserve="all" />
     <type fullname="KD.UI.StalemateUI" preserve="all" />
     <type fullname="KD.UI.TapWorldView" preserve="all" />
