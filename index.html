@@ -29,7 +29,12 @@
         GetXp: function(level) {
           return level * 1000;
         }
-      }
+      };
+
+      window.parent.addEventListener("triggerHaptic", function (e) {
+        navigator.vibrate(1);
+      });
+
     </script>
     <script>
       window.addEventListener("load", function () {
@@ -78,7 +83,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.4.26",
+        productVersion: "0.4.30",
         showBanner: unityShowBanner,
       };
 

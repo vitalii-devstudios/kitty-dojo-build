@@ -29,6 +29,7 @@
     <type fullname="KD.Gameplay.PlayerTracks" preserve="all" />
     <type fullname="KD.Gameplay.PowerBarState" preserve="all" />
     <type fullname="KD.Gameplay.RoundEndState" preserve="all" />
+    <type fullname="KD.Gameplay.RoundStartState" preserve="all" />
     <type fullname="KD.Gameplay.SimulationState" preserve="all" />
     <type fullname="KD.Gameplay.SpawnManager" preserve="all" />
     <type fullname="KD.Gameplay.SpecialAttackCutsceneState" preserve="all" />
@@ -47,7 +48,9 @@
     <type fullname="KD.UI.DynamicStatView" preserve="all" />
     <type fullname="KD.UI.EmoteButton" preserve="all" />
     <type fullname="KD.UI.EndGameUI" preserve="all" />
+    <type fullname="KD.UI.GameplayTopBarView" preserve="all" />
     <type fullname="KD.UI.GameplayUI" preserve="all" />
+    <type fullname="KD.UI.MatchStatsView" preserve="all" />
     <type fullname="KD.UI.MoveSelectionUI" preserve="all" />
     <type fullname="KD.UI.MovesQueueView" preserve="all" />
     <type fullname="KD.UI.MoveView" preserve="all" />
@@ -62,6 +65,7 @@
     <type fullname="KD.UI.SpecialAttackButton" preserve="all" />
     <type fullname="KD.UI.StalemateUI" preserve="all" />
     <type fullname="KD.UI.TapWorldView" preserve="all" />
+    <type fullname="KD.UI.VictoryMarksView" preserve="all" />
     <type fullname="KD.Utils.LookAtCamera" preserve="all" />
   </assembly>
   <assembly fullname="Fusion.Runtime, Version=2.0.5.0, Culture=neutral, PublicKeyToken=null">
