@@ -32,7 +32,11 @@
       };
 
       window.parent.addEventListener("triggerHaptic", function (e) {
-        navigator.vibrate(1);
+        if ('vibrate' in navigator) {
+          navigator.vibrate(1);
+        } else {
+          console.log('Vibration API not supported');
+        }
       });
 
     </script>
@@ -83,7 +87,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.4.36",
+        productVersion: "0.4.37",
         showBanner: unityShowBanner,
       };
 

@@ -2,6 +2,7 @@
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="FpsCounter" preserve="all" />
     <type fullname="KD.Assets.Scripts.PlayerController" preserve="all" />
+    <type fullname="KD.Audio.ArenaMusicManager" preserve="all" />
     <type fullname="KD.Audio.AudioPlayer" preserve="all" />
     <type fullname="KD.Audio.ButtonClickSound" preserve="all" />
     <type fullname="KD.Audio.SfxAsset" preserve="all" />
@@ -62,6 +63,8 @@
     <type fullname="KD.UI.ReactionsBar" preserve="all" />
     <type fullname="KD.UI.ReactionWorldView" preserve="all" />
     <type fullname="KD.UI.RematchButton" preserve="all" />
+    <type fullname="KD.UI.RoundEndUI" preserve="all" />
+    <type fullname="KD.UI.RoundStartUI" preserve="all" />
     <type fullname="KD.UI.SpecialAttackButton" preserve="all" />
     <type fullname="KD.UI.StalemateUI" preserve="all" />
     <type fullname="KD.UI.TapWorldView" preserve="all" />
