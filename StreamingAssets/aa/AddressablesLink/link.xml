@@ -46,6 +46,7 @@
     <type fullname="KD.UI.CutsceneOverlay" preserve="all" />
     <type fullname="KD.UI.DefensePage" preserve="all" />
     <type fullname="KD.UI.DisconnectButton" preserve="all" />
+    <type fullname="KD.UI.DisconnectUI" preserve="all" />
     <type fullname="KD.UI.DynamicStatView" preserve="all" />
     <type fullname="KD.UI.EmoteButton" preserve="all" />
     <type fullname="KD.UI.EndGameUI" preserve="all" />
