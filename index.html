@@ -87,7 +87,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.4.39",
+        productVersion: "0.5.1",
         showBanner: unityShowBanner,
       };
 
@@ -131,8 +131,18 @@
             "cosmetic_mask_02"
           ]
 
+          const weapons = [
+            "weapon_katana",
+            "weapon_sai",
+            "weapon_staff",
+            "weapon_suyari",
+            "weapon_tetsubo",
+            ""
+          ]
+
           const rnd_skin = skins[Math.floor(Math.random() * skins.length)];
           const rnd_item = items[Math.floor(Math.random() * items.length)];
+          const rnd_weapon = items[Math.floor(Math.random() * weapons.length)];
           const user_number = Math.floor(Math.random() * 1000);
 
           function uuidv4() {
@@ -162,7 +172,7 @@
             Character: {
                 Skin: rnd_skin,
                 Items: [rnd_item], // New. List of eqipped items (just ids for in game assets). Hat field is removed.
-                Weapon: "weapon_katana",
+                Weapon: rnd_weapon,
                 Special: []
             }
           };
