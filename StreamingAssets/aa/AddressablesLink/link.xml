@@ -23,6 +23,7 @@
     <type fullname="KD.Gameplay.CharacterStats" preserve="all" />
     <type fullname="KD.Gameplay.DisconnectState" preserve="all" />
     <type fullname="KD.Gameplay.DisconnectStateOverride" preserve="all" />
+    <type fullname="KD.Gameplay.GameLengthNegotiationState" preserve="all" />
     <type fullname="KD.Gameplay.GameOverState" preserve="all" />
     <type fullname="KD.Gameplay.HPStat" preserve="all" />
     <type fullname="KD.Gameplay.InitGameState" preserve="all" />
@@ -55,6 +56,7 @@
     <type fullname="KD.UI.GameplayTopBarView" preserve="all" />
     <type fullname="KD.UI.GameplayUI" preserve="all" />
     <type fullname="KD.UI.MatchStatsView" preserve="all" />
+    <type fullname="KD.UI.ModalDialog" preserve="all" />
     <type fullname="KD.UI.MoveSelectionUI" preserve="all" />
     <type fullname="KD.UI.MovesQueueView" preserve="all" />
     <type fullname="KD.UI.MoveView" preserve="all" />
@@ -67,6 +69,8 @@
     <type fullname="KD.UI.ReactionWorldView" preserve="all" />
     <type fullname="KD.UI.RematchButton" preserve="all" />
     <type fullname="KD.UI.RoundEndUI" preserve="all" />
+    <type fullname="KD.UI.RoundNegotiationOption" preserve="all" />
+    <type fullname="KD.UI.RoundsNegotiationDialog" preserve="all" />
     <type fullname="KD.UI.RoundStartUI" preserve="all" />
     <type fullname="KD.UI.SpecialAttackButton" preserve="all" />
     <type fullname="KD.UI.StalemateUI" preserve="all" />
@@ -91,12 +95,12 @@
     <type fullname="Unity.Cinemachine.CinemachineImpulseListener" preserve="all" />
     <type fullname="Unity.Cinemachine.CinemachineImpulseSource" preserve="all" />
     <type fullname="Unity.Cinemachine.NoiseSettings" preserve="all" />
+    <type fullname="Unity.Cinemachine.CinemachineImpulseDefinition" preserve="nothing" serialized="true" />
+    <type fullname="Unity.Cinemachine.CinemachineImpulseManager/EnvelopeDefinition" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CameraTarget" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineBlendDefinition" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineBrain/LensModeOverrideSettings" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.CinemachineImpulseDefinition" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.CinemachineImpulseListener/ImpulseReaction" preserve="nothing" serialized="true" />
-    <type fullname="Unity.Cinemachine.CinemachineImpulseManager/EnvelopeDefinition" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.LensSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.LensSettings/PhysicalSettings" preserve="nothing" serialized="true" />
     <type fullname="Unity.Cinemachine.NoiseSettings/NoiseParams" preserve="nothing" serialized="true" />
@@ -134,6 +138,7 @@
   </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
@@ -198,6 +203,7 @@
     <type fullname="UnityEngine.LightingSettings" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.LightProbes" preserve="all" />
+    <type fullname="UnityEngine.LODGroup" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
@@ -227,6 +233,7 @@
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.CharacterController" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
   </assembly>
