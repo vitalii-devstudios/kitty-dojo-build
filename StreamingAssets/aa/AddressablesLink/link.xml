@@ -11,6 +11,7 @@
     <type fullname="KD.Cosmetics.PlayerDataCosmeticsManager" preserve="all" />
     <type fullname="KD.Data.ReactionSet" preserve="all" />
     <type fullname="KD.Data.SpecialAttackPack" preserve="all" />
+    <type fullname="KD.Data.StatusEffectPack" preserve="all" />
     <type fullname="KD.FX.BalancedBeams" preserve="all" />
     <type fullname="KD.FX.SpecialAttackFX" preserve="all" />
     <type fullname="KD.FX.WagerCoin" preserve="all" />
@@ -18,6 +19,7 @@
     <type fullname="KD.Gameplay.AttackStat" preserve="all" />
     <type fullname="KD.Gameplay.AttackType" preserve="all" />
     <type fullname="KD.Gameplay.BotBrain" preserve="all" />
+    <type fullname="KD.Gameplay.BurnStatusEffect" preserve="all" />
     <type fullname="KD.Gameplay.CharacterAnimator" preserve="all" />
     <type fullname="KD.Gameplay.CharacterStats" preserve="all" />
     <type fullname="KD.Gameplay.DisconnectState" preserve="all" />
@@ -39,6 +41,7 @@
     <type fullname="KD.Gameplay.SpecialAttackCutsceneState" preserve="all" />
     <type fullname="KD.Gameplay.SpecialAttackSelectionState" preserve="all" />
     <type fullname="KD.Gameplay.StalemateState" preserve="all" />
+    <type fullname="KD.Gameplay.StatusEffectManager" preserve="all" />
     <type fullname="KD.UI.ActionButton" preserve="all" />
     <type fullname="KD.UI.ActionButtonCircle" preserve="all" />
     <type fullname="KD.UI.ActionPanel" preserve="all" />
