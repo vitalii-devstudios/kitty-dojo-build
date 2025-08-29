@@ -68,6 +68,7 @@
     <type fullname="KD.UI.MoveView" preserve="all" />
     <type fullname="KD.UI.MoveWorldView" preserve="all" />
     <type fullname="KD.UI.PlayerDataView" preserve="all" />
+    <type fullname="KD.UI.PlayerStatusEffectView" preserve="all" />
     <type fullname="KD.UI.PowerBar" preserve="all" />
     <type fullname="KD.UI.PowerBarPage" preserve="all" />
     <type fullname="KD.UI.ProgressBar" preserve="all" />
