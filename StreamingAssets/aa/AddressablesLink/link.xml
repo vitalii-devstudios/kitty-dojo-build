@@ -18,12 +18,15 @@
     <type fullname="KD.Gameplay.ArenaManager" preserve="all" />
     <type fullname="KD.Gameplay.AttackStat" preserve="all" />
     <type fullname="KD.Gameplay.AttackType" preserve="all" />
+    <type fullname="KD.Gameplay.BlindStatusEffect" preserve="all" />
     <type fullname="KD.Gameplay.BotBrain" preserve="all" />
     <type fullname="KD.Gameplay.BurnStatusEffect" preserve="all" />
     <type fullname="KD.Gameplay.CharacterAnimator" preserve="all" />
     <type fullname="KD.Gameplay.CharacterStats" preserve="all" />
+    <type fullname="KD.Gameplay.DefenseStat" preserve="all" />
     <type fullname="KD.Gameplay.DisconnectState" preserve="all" />
     <type fullname="KD.Gameplay.DisconnectStateOverride" preserve="all" />
+    <type fullname="KD.Gameplay.FreezeStatusEffect" preserve="all" />
     <type fullname="KD.Gameplay.GameLengthNegotiationState" preserve="all" />
     <type fullname="KD.Gameplay.GameOverState" preserve="all" />
     <type fullname="KD.Gameplay.HeavyAttackType" preserve="all" />
