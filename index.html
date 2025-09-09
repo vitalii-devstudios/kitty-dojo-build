@@ -87,7 +87,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.6.16",
+        productVersion: "0.6.17",
         showBanner: unityShowBanner,
       };
 
@@ -140,9 +140,23 @@
             ""
           ]
 
+          const animations = [
+            "pose_closing_fists",
+            "pose_cold_palmer_celebration",
+            "pose_come_at_me",
+            "pose_ground_strike",
+            "pose_hand_cleaning",
+            "pose_martial_bow",
+            "pose_money_rain",
+            "pose_neck_crack",
+            "pose_ronaldo_siu",
+            "pose_shoulder_brush"
+          ]
+
           const rnd_skin = skins[Math.floor(Math.random() * skins.length)];
           const rnd_item = items[Math.floor(Math.random() * items.length)];
           const rnd_weapon = items[Math.floor(Math.random() * weapons.length)];
+          const rnd_animation = animations[Math.floor(Math.random() * animations.length)];
           const user_number = Math.floor(Math.random() * 1000);
 
           function uuidv4() {
@@ -173,7 +187,8 @@
                 Skin: rnd_skin,
                 Items: [rnd_item], // New. List of eqipped items (just ids for in game assets). Hat field is removed.
                 Weapon: rnd_weapon,
-                Special: []
+                Special: [],
+                Animations: [rnd_animation]
             }
           };
           unityInstance.Module.Kitty.SendPlayerData(gameData);
