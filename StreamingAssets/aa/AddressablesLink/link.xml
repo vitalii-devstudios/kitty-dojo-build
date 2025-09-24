@@ -14,6 +14,7 @@
     <type fullname="KD.Data.StatusEffectPack" preserve="all" />
     <type fullname="KD.FX.BalancedBeams" preserve="all" />
     <type fullname="KD.FX.SpecialAttackFX" preserve="all" />
+    <type fullname="KD.FX.SpecialAttackPositionAnchor" preserve="all" />
     <type fullname="KD.FX.WagerCoin" preserve="all" />
     <type fullname="KD.Gameplay.ArenaManager" preserve="all" />
     <type fullname="KD.Gameplay.AttackStat" preserve="all" />
