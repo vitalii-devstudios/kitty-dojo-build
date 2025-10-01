@@ -65,6 +65,7 @@
     <type fullname="KD.UI.EndGameUI" preserve="all" />
     <type fullname="KD.UI.GameplayTopBarView" preserve="all" />
     <type fullname="KD.UI.GameplayUI" preserve="all" />
+    <type fullname="KD.UI.HoldableButton" preserve="all" />
     <type fullname="KD.UI.LowHpBorder" preserve="all" />
     <type fullname="KD.UI.MatchStatsView" preserve="all" />
     <type fullname="KD.UI.ModalDialog" preserve="all" />
