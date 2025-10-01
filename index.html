@@ -39,6 +39,10 @@
         }
       });
 
+      window.parent.addEventListener("matchCompletedEvent", function (e) {
+        console.log("Match event recived with data: " + e.toString());
+      });
+
     </script>
     <script>
       window.addEventListener("load", function () {
@@ -87,7 +91,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.6.29",
+        productVersion: "0.6.33",
         showBanner: unityShowBanner,
       };
 
