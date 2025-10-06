@@ -63,6 +63,7 @@
     <type fullname="KD.UI.DynamicStatView" preserve="all" />
     <type fullname="KD.UI.EmoteButton" preserve="all" />
     <type fullname="KD.UI.EndGameUI" preserve="all" />
+    <type fullname="KD.UI.GameplayFadeIn" preserve="all" />
     <type fullname="KD.UI.GameplayTopBarView" preserve="all" />
     <type fullname="KD.UI.GameplayUI" preserve="all" />
     <type fullname="KD.UI.HoldableButton" preserve="all" />
