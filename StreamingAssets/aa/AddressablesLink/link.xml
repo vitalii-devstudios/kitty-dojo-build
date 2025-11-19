@@ -86,6 +86,7 @@
     <type fullname="KD.UI.RoundNegotiationOption" preserve="all" />
     <type fullname="KD.UI.RoundsNegotiationDialog" preserve="all" />
     <type fullname="KD.UI.RoundStartUI" preserve="all" />
+    <type fullname="KD.UI.ShareUI" preserve="all" />
     <type fullname="KD.UI.SpecialAttackButton" preserve="all" />
     <type fullname="KD.UI.StalemateUI" preserve="all" />
     <type fullname="KD.UI.TapWorldView" preserve="all" />
