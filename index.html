@@ -94,7 +94,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.6.76",
+        productVersion: "0.6.77",
         showBanner: unityShowBanner,
       };
 
@@ -194,6 +194,7 @@
               Id: userId, // New. Any unique id will do.
               Avatar: "https://i.pravatar.cc/64",
               Name: "Test_User_"+user_number,
+              Clan: "Devs",
               Stats: {
                 XP: 200,
                 HP: 100,      // New. We have UI for these stats so let's use it for now.
@@ -212,7 +213,17 @@
                 Animations: [rnd_animation]
             }
           };
+
+          const playModeData = {
+            Mode: "normal",
+		        GroupID: "",
+            Region: "",  
+            Stage: 1,
+          };
+
+
           unityInstance.Module.Kitty.SendPlayerData(gameData);
+          unityInstance.Module.Kitty.SetPlayMode(playModeData);
         }).catch((message) => {
           alert(message);
         });
