@@ -31,6 +31,12 @@
         },
         GetCoins: function() {
           return 50;
+        },
+        GetTournamentInfo(id) {
+          return JSON.stringify({
+            participants: 81,
+            prize: 3500
+          });
         }
       };
 
@@ -94,7 +100,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.6.80",
+        productVersion: "0.6.84",
         showBanner: unityShowBanner,
       };
 
