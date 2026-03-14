@@ -90,7 +90,9 @@
     <type fullname="KD.UI.SpecialAttackButton" preserve="all" />
     <type fullname="KD.UI.StalemateUI" preserve="all" />
     <type fullname="KD.UI.TapWorldView" preserve="all" />
+    <type fullname="KD.UI.TournamentPopup" preserve="all" />
     <type fullname="KD.UI.VictoryMarksView" preserve="all" />
+    <type fullname="KD.UI.Views.TournamentResultView" preserve="all" />
     <type fullname="KD.UI.WagerPopup" preserve="all" />
     <type fullname="KD.Utils.LookAtCamera" preserve="all" />
     <type fullname="KD.Data.SpecialAttackData/DefenceType" preserve="nothing" serialized="true" />
