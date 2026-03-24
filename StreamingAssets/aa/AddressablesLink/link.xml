@@ -29,6 +29,7 @@
     <type fullname="KD.Gameplay.DisconnectStateOverride" preserve="all" />
     <type fullname="KD.Gameplay.FreezeStatusEffect" preserve="all" />
     <type fullname="KD.Gameplay.GameLengthNegotiationState" preserve="all" />
+    <type fullname="KD.Gameplay.GameLengthSelectionState" preserve="all" />
     <type fullname="KD.Gameplay.GameOverState" preserve="all" />
     <type fullname="KD.Gameplay.HeavyAttackType" preserve="all" />
     <type fullname="KD.Gameplay.HPStat" preserve="all" />
