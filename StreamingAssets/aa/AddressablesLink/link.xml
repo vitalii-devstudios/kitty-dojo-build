@@ -56,6 +56,7 @@
     <type fullname="KD.UI.CoinsPanelView" preserve="all" />
     <type fullname="KD.UI.ComboBarPage" preserve="all" />
     <type fullname="KD.UI.ComboBarView" preserve="all" />
+    <type fullname="KD.UI.ConfirmDialog" preserve="all" />
     <type fullname="KD.UI.CutsceneOverlay" preserve="all" />
     <type fullname="KD.UI.DefenseButton" preserve="all" />
     <type fullname="KD.UI.DefensePage" preserve="all" />
@@ -64,6 +65,7 @@
     <type fullname="KD.UI.DynamicStatView" preserve="all" />
     <type fullname="KD.UI.EmoteButton" preserve="all" />
     <type fullname="KD.UI.EndGameUI" preserve="all" />
+    <type fullname="KD.UI.ExitButton" preserve="all" />
     <type fullname="KD.UI.GameplayFadeIn" preserve="all" />
     <type fullname="KD.UI.GameplayTopBarView" preserve="all" />
     <type fullname="KD.UI.GameplayUI" preserve="all" />
@@ -93,6 +95,7 @@
     <type fullname="KD.UI.TapWorldView" preserve="all" />
     <type fullname="KD.UI.TournamentPopup" preserve="all" />
     <type fullname="KD.UI.VictoryMarksView" preserve="all" />
+    <type fullname="KD.UI.Views.ClanRatingView" preserve="all" />
     <type fullname="KD.UI.Views.TournamentResultView" preserve="all" />
     <type fullname="KD.UI.WagerPopup" preserve="all" />
     <type fullname="KD.Utils.LookAtCamera" preserve="all" />

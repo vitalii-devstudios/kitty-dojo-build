@@ -32,12 +32,19 @@
         GetCoins: function() {
           return 50;
         },
-        GetTournamentInfo(id) {
+        GetTournamentInfo: function(id) {
           return JSON.stringify({
             participants: 81,
             prize: 3500,
             brackets: 16,
             rounds: 3
+          });
+        },
+        GetClanInfo: function(id) {
+          return JSON.stringify({
+            name: "devs",
+            rating: 1500,
+            ratingChange: 25
           });
         }
       };
@@ -102,7 +109,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Azulon",
         productName: "Kung Fu Kitty Dojo",
-        productVersion: "0.6.95",
+        productVersion: "0.6.99",
         showBanner: unityShowBanner,
       };
 
@@ -223,7 +230,7 @@
           };
 
           const playModeData = {
-            Mode: "normal",
+            Mode: "clan",
 		        GroupID: "",
             Region: "",  
             Stage: 1,
