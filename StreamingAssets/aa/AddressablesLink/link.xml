@@ -34,6 +34,7 @@
     <type fullname="KD.Gameplay.HeavyAttackType" preserve="all" />
     <type fullname="KD.Gameplay.HPStat" preserve="all" />
     <type fullname="KD.Gameplay.InitGameState" preserve="all" />
+    <type fullname="KD.Gameplay.MatchCanceledState" preserve="all" />
     <type fullname="KD.Gameplay.MatchIntroState" preserve="all" />
     <type fullname="KD.Gameplay.MatchOutroState" preserve="all" />
     <type fullname="KD.Gameplay.MoveSelectionState" preserve="all" />
