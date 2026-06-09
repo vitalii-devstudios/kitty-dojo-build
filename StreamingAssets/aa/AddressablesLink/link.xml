@@ -54,6 +54,7 @@
     <type fullname="KD.UI.ActionPanel" preserve="all" />
     <type fullname="KD.UI.AttackPage" preserve="all" />
     <type fullname="KD.UI.BuildVersionView" preserve="all" />
+    <type fullname="KD.UI.Buttons.TournamentExitButton" preserve="all" />
     <type fullname="KD.UI.CoinsPanelView" preserve="all" />
     <type fullname="KD.UI.ComboBarPage" preserve="all" />
     <type fullname="KD.UI.ComboBarView" preserve="all" />
